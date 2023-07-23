@@ -47,3 +47,55 @@ button i {
 #audioPlayer {
   display: none;
 }
+
+.volume-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.volume-label {
+  margin-right: 10px;
+}
+
+.volume-bar {
+  width: 200px;
+  height: 10px;
+  background-color: #dddddd;
+  border-radius: 5px;
+  position: relative;
+}
+
+.volume-level {
+  height: 100%;
+  border-radius: 5px;
+  background-color: #333333;
+}
+
+.volume-level-indicator {
+  position: absolute;
+  top: -25px;
+  color: #333333;
+  font-weight: bold;
+}
+.volume-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.volume-button {
+  background-color: #333333;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.volume-button:hover {
+  background-color: #555555;
+}
